@@ -1,0 +1,184 @@
+/* So the HTML5 structural tags work in older browsers */
+article, aside, figure, footer, header, nav, section {
+    display: block;
+}
+
+/* the styles for the elements */
+
+
+html {
+	background-color: #A0522D;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+    width: 1150px;
+    margin: 0 auto;
+    background-color: #F4A460;
+    border: 3px solid #800000;
+    
+}
+a:focus, a:hover {
+	font-style: italic;
+}
+	
+	/* the styles for the header */
+ header {
+ 	clear: both;
+ 
+ }
+ header h1 {
+ 	color: #660033;
+	text-align: center;
+	
+}
+.header_logo {
+ 	float: left;
+ 	padding: 1em 3em;
+ }
+.headerimg_2 {
+ }
+ nav a.current {
+ 	color: yellow !important;
+ }
+#nav_bar {
+	clear: both;
+	text-align: center;
+	
+}
+#nav_bar ul {
+		background-color: #A0522D; 
+		padding: 1em;
+		margin-top: 5px;
+		
+}
+#nav_bar li {
+	border-right: 3px solid black;
+	padding: 0 1em;
+	display: inline;
+	font-size: 125%;
+	list-style-type: none;
+	
+}
+#nav_bar li a {
+	text-decoration: none;
+	color: white;
+}
+	/* the styles for the section */
+section {
+	float: right;
+	padding: 0 1em 0 1em;
+	width: 740px;
+}
+section h1 {
+	color: #660033;
+	font-size: 250%;
+	clear: both;
+}
+.center {
+	text-align: center;
+	
+}
+
+section ol {
+	margin-top: .5em;
+}
+section ol li {
+	padding: .25em 0 .25em 0;
+	font-size: 110%;
+}
+section p {
+	font-size: 110%;
+	margin-top: .5em;
+}
+section img {
+	border: 1px solid black;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	margin-bottom: .5em;
+}
+.container_1 {
+	float: left;
+}
+.container_2 {
+	float: right;
+}
+.container_3 {
+	clear: both;
+}
+.menuitems {
+	font-weight: bold;
+}
+
+	/* the styles for the aside */
+aside {
+	float: left;
+	padding: 0 0 0 1em;
+	
+}
+aside ul li {
+	padding: 0 0 .25em 0;
+	font-size: 115%;
+	font-weight: bold;
+	margin: 0;
+	
+	
+	
+	
+}
+aside ul {
+	margin: 0;
+}
+.square {
+	list-style-type: square;
+	color: #663300;
+	
+}
+	.change_font {
+	font-size: 135%;
+}
+aside h1 {
+	
+	color: #660033;
+	font-size: 250%;
+	
+}
+aside h2 {
+	color: #680000;
+}
+aside p {
+font-size: 110%
+}
+aside img {
+	border: 1px solid black;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	}
+	
+	/* the styles for the footer */
+	
+footer {
+	clear: both;
+	margin-bottom: 0;
+	padding-bottom: .5em;
+	margin-top: 1em;
+}
+.nav_bar ul {
+	padding:.5em;
+	text-align: center;
+}
+.nav_bar li {
+	border-right: 3px solid black;
+	padding: 0 1em;
+	display: inline;
+	list-style-type: none;
+}
+.nav_bar a {
+	text-decoration: none;
+}
+footer p {
+	padding: 0 0 0 1em;
+}
+

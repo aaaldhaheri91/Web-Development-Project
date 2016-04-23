@@ -1,0 +1,164 @@
+/* So the HTML5 structural tags work in older browsers */
+article, aside, figure, footer, header, nav, section {
+    display: block;
+}
+
+/* the styles for the elements */
+
+
+html {
+	background-color: #A0522D;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+    width: 1150px;
+    margin: 0 auto;
+    background-color: #F4A460;
+    border: 3px solid #800000;
+    
+}
+a:focus, a:hover {
+	font-style: italic;
+}
+	
+	/* the styles for the header */
+ header {
+ 	clear: both;
+ 
+ }
+ header h1 {
+ 	color: #660033;
+ 	padding: 1em 0 0 8em;
+ 	
+ }
+.header_logo {
+ 	float: left;
+ 	padding: 1em 3em;
+ }
+.headerimg_2 {
+ }
+ nav a.current {
+ 	color: yellow !important;
+ }
+ #container {
+	clear: both;
+ }
+#nav_bar {
+	clear: both;
+	text-align: center;
+	
+}
+#nav_bar ul {
+		background-color: #A0522D; 
+		padding: 1em;
+		margin-top: 5px;
+		
+}
+#nav_bar li {
+	border-right: 3px solid black;
+	padding: 0 1em;
+	display: inline;
+	font-size: 125%;
+	list-style-type: none;
+	
+}
+#nav_bar li a {
+	text-decoration: none;
+	color: white;
+}
+	/* the styles for the section */
+section {
+	float: left;
+	padding: 0 1em 0 1em;
+	width: 740px;
+}
+section h2 {
+	margin-bottom: 0em;
+}
+section ol {
+	margin-top: .5em;
+}
+section ol li {
+	padding: .25em 0 .25em 0;
+	font-size: 110%;
+}
+section p {
+	font-size: 110%;
+	margin-top: .5em;
+}
+section img {
+	float: right;
+	margin-bottom: .5em;
+	border: 1px solid black;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+	/* the styles for the aside */
+aside {
+	float: right;
+	padding: 0 1em 0 0;
+	
+}
+aside ul li {
+	padding: 0 0 .25em 0;
+	font-size: 135%;
+	font-weight: bold;
+	margin-top: 0em;
+	
+	
+}
+aside ul {
+margin-top: .5em;
+}
+aside h1 {
+	margin-bottom: 0em;
+	
+}
+aside p {
+font-size: 110%
+}
+	
+	/* the styles for the footer */
+	
+footer {
+	clear: both;
+	background-color: gray;
+	margin-bottom: 0;
+	padding-bottom: .5em;
+	margin-top: 1em;
+}
+.nav_bar ul {
+	padding:.5em;
+	text-align: center;
+}
+.nav_bar li {
+	border-right: 3px solid black;
+	padding: 0 1em;
+	display: inline;
+	list-style-type: none;
+}
+.nav_bar a {
+	text-decoration: none;
+}
+footer p {
+	text-align: center;
+}
+
+
+@media only screen and (max-width: 900px), (max-device-width: 480px) {
+aside,
+section, #nav_bar {
+ float: left;
+ width: auto;
+ }
+.fadein {
+	position: relative;
+}
+.fadein {
+	position: absolute;
+}
+	
+}
